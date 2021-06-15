@@ -150,24 +150,70 @@ main {
   z-index: 2;
   position: relative;
   top: 115px;
-  height: 600px;
+  height: 1600px;
   background-color: #ffffff;
   width: 80%;
   margin: auto;
+  /* MAIN SECTION CARD */
+  /* Central card */
 }
 main .main-title {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%);
+  padding: 30px;
+  text-align: center;
   width: 33%;
   background-position: center;
+  margin: auto;
 }
 main .main-title h2 {
   text-align: center;
   justify-content: center;
   margin-bottom: 20px;
+  margin-top: 110px;
 }
 main .card {
   margin: 10px;
+}
+main .d-flex .card {
+  padding: 60px 40px;
+}
+main .d-flex .card h3 {
+  font-weight: 900;
+  font-size: 35px;
+  color: #1FAD96;
+  text-align: center;
+}
+main .d-flex .card span {
+  font-weight: 700;
+  color: #6c6c6c;
+}
+main .left-card {
+  margin-right: 10px;
+  width: 20%;
+}
+main .left-card .left-top-card, main .left-card .left-bottom-card {
+  margin: 10px;
+  padding: 10px;
+  float: left;
+  box-shadow: 0 0 20px 0 #a39f9f98;
+  border-radius: 3px;
+}
+main .left-card .left-top-card img, main .left-card .left-bottom-card img {
+  width: 175px;
+}
+main .left-card img {
+  padding: 10px;
+  width: 175px;
+}
+main .central-card {
+  width: 20%;
+  margin-top: 30px;
+}
+main .central-card .central-top-card, main .central-card .central-bottom-card {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 20px 0 #a39f9f98;
+  border-radius: 3px;
+}
+main .central-card img {
+  width: 175px;
 }

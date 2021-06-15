@@ -5,27 +5,74 @@ main{
     z-index: 2;
     position: relative;
     top:115px;
-    height:600px;
+    height:1600px;
     background-color: #ffffff;
     width:80%;
     margin:auto;
     
     .main-title{
-        position: absolute;
-        top: 15%;
-        left: 50%;
-        transform: translate(-50%);
+        padding:30px;
+        text-align: center;
         width:33%;
         background-position: center;
-        
+        margin: auto;
         h2{
             text-align: center;
             justify-content: center;
-            margin-bottom:20px
-            
+            margin-bottom:20px;
+            margin-top: 110px;
         }
     }
     .card{
         margin:10px;
+    }
+    .d-flex{
+        .card{
+            padding: 60px 40px;
+            h3{
+                font-weight: 900;
+                font-size: 35px;
+                color:$mountainMeadow;
+                text-align: center;
+            }
+            span{
+                font-weight: 700;
+                color:$doveGray;
+            }
+        }
+    }
+    /* MAIN SECTION CARD */
+    .left-card{
+        margin-right: 10px;
+        .left-top-card, .left-bottom-card{
+            margin:10px;
+            padding:10px;
+            float:left;
+            box-shadow: 0 0 20px 0 #a39f9f98;
+            border-radius: 3px;
+            img{
+                width:175px;
+            }
+        }
+        width:20%;
+    }
+    .left-card img{
+        padding:10px;
+        width:175px;
+    }
+    /* Central card */
+    .central-card{
+        width:20%;
+        margin-top:30px;
+        .central-top-card, .central-bottom-card{
+        margin:10px;
+        padding:10px;
+        box-shadow: 0 0 20px 0 #a39f9f98;
+        border-radius: 3px;
+        }
+        
+            img{
+                width:175px;
+            }
     }
 }
