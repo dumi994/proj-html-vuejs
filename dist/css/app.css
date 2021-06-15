@@ -150,7 +150,7 @@ main {
   z-index: 2;
   position: relative;
   top: 115px;
-  height: 1600px;
+  height: 1220px;
   background-color: #ffffff;
   width: 80%;
   margin: auto;
@@ -209,11 +209,38 @@ main .central-card {
   margin-top: 30px;
 }
 main .central-card .central-top-card, main .central-card .central-bottom-card {
-  margin: 10px;
+  margin: 20px 10px;
   padding: 10px;
   box-shadow: 0 0 20px 0 #a39f9f98;
   border-radius: 3px;
 }
 main .central-card img {
   width: 175px;
+}
+main .right-card {
+  margin-top: 100px;
+  margin-left: 100px;
+  padding: 20px;
+  width: 50%;
+  height: 400px;
+}
+main .right-card span {
+  padding: 10px;
+  color: #6c6c6c;
+}
+main .right-card h2 {
+  font-size: 50px;
+  margin: 20px 0;
+  padding: 10px 40px 0 0;
+  font-weight: 700;
+}
+main .right-card h2 span {
+  color: #1FAD96;
+}
+main .right-card ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+main .right-card ul li i {
+  color: #1FAD96;
 }
