@@ -1,0 +1,31 @@
+main{
+    background-image: url("/dist/img/background-pattern-grid-line.png");
+    background-position: center;
+    background-repeat:repeat ;
+    z-index: 2;
+    position: relative;
+    top:115px;
+    height:600px;
+    background-color: #ffffff;
+    width:80%;
+    margin:auto;
+    
+    .main-title{
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%);
+        width:33%;
+        background-position: center;
+        
+        h2{
+            text-align: center;
+            justify-content: center;
+            margin-bottom:20px
+            
+        }
+    }
+    .card{
+        margin:10px;
+    }
+}

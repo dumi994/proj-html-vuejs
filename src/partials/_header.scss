@@ -1,9 +1,12 @@
-header{
+header{  
     width:100%;
     height: 630px;
     background-color: #1F1F52;
     /* display: flex; */
-
+    .head{
+            height: 680px;
+            z-index: 1;
+        }
     /* Jumbotron */
     .header-title{
         margin-top: 35px ;
@@ -50,7 +53,7 @@ header{
             transform: translate(-50%);
             border: 15px solid white;
             border-radius: 15px;
-            box-shadow: 0 0 20px 0 #a39f9f7c;
+            box-shadow: 0 0 20px 0 #a39f9f98;
         }
         .right-img{
             position: absolute;

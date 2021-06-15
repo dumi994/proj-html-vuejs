@@ -6,11 +6,22 @@
 }
 .container{
     width:100%;
-    background-color: #1F1F52;
+    /* background-color:$portGore; */
     height: 60px;
     display: flex;
+}
+.container-80{
+    width:80%;
+    margin:auto;
+    justify-content: center;
 }
 #app{
     width:100%;
     height:100%;
+}
+.text-center{
+    text-align: center;
+}
+.d-flex{
+    display: flex;
 }
