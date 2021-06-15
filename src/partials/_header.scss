@@ -1,5 +1,6 @@
 header{
     width:100%;
+    height: 500px;
     background-color: #1F1F52;
     /* display: flex; */
     /* Jumbotron */
@@ -14,10 +15,29 @@ header{
             padding:15px;
         }
         button{
-            margin: 10px;
+            margin: 10px 0  40px 0;
             padding: 10px;
             border-radius: 7px;
             background-color: #20AD96;
+        }
+    }
+    .jumbotron{
+        display: flex;
+        width:90%;
+        margin:auto;
+        justify-content: space-between;
+        position: relative;
+        .left-img{
+            position: absolute;
+            left:7%;
+            top:-40px;
+        }
+        .img-centr{
+            position:absolute;
+            left:50%;
+            transform: translate(-50%);
+            border: 15px solid white;
+            border-radius: 15px;
         }
     }
 }
