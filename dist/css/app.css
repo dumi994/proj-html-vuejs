@@ -60,6 +60,11 @@ header .jumbotron .img-centr {
   border: 15px solid white;
   border-radius: 15px;
 }
+header .jumbotron .right-img {
+  position: absolute;
+  right: 14.5%;
+  top: 285px;
+}
 
 /* Navbar */
 nav {
