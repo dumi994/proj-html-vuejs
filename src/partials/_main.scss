@@ -240,6 +240,37 @@ main{
             
         }
     }
+    .artist-section{
+        background-color: $hintOfRed;
+        text-align: center;
+        .artist-title{
+            padding:20px 0;
+            span{
+                padding:5px;
+                color:$doveGray;
+            }
+            h2{
+               
+                color: $rhino;
+                padding:10px;
+                span{
+                    color:$jungleGreen
+                }
+            }
+        }
+        .artist-blog{
+            .artist-card{
+                margin:10px;
+                h4{
+                    margin:5px;
+                }
+            }
+            justify-content: center;
+            img{
+                width:250px;
+            }
+        }
+    }
 }    
   
     
