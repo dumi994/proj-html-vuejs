@@ -43,6 +43,12 @@
   padding-bottom: 0;
 }
 
+button {
+  margin: 10px 0 40px 0;
+  padding: 10px;
+  border-radius: 7px;
+}
+
 header {
   width: 100%;
   height: 630px;
@@ -63,9 +69,6 @@ header .header-title p {
   padding: 15px;
 }
 header .header-title button {
-  margin: 10px 0 40px 0;
-  padding: 10px;
-  border-radius: 7px;
   background-color: #20AD96;
 }
 header .jumbotron {
@@ -235,6 +238,9 @@ main .right-card {
   width: 50%;
   height: 400px;
 }
+main .right-card button {
+  background-color: #1FAD96;
+}
 main .right-card span {
   padding: 10px;
   color: #6c6c6c;
@@ -256,6 +262,7 @@ main .right-card ul li i {
   color: #1FAD96;
 }
 main .azure-section {
+  height: 540px;
   margin-top: 40px;
   background-color: #f5f7fa;
   /* CARDS */
@@ -288,4 +295,19 @@ main .azure-section .feature-img img {
   border-radius: 60%;
   width: 110px;
   height: 110px;
+}
+main .azure-section .img-button {
+  background-image: url(/dist/img/);
+}
+main .azure-section .feature-button {
+  padding-bottom: 20px;
+  position: relative;
+  width: 100%;
+  display: block;
+}
+main .azure-section .feature-button button {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #20AD96;
 }

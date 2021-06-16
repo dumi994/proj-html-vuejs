@@ -82,6 +82,9 @@ main{
         padding:20px;
         width:50%;
         height: 400px;
+        button{
+            background-color: $mountainMeadow;
+        }
         span{
             padding:10px;
             color:$doveGray
@@ -109,6 +112,7 @@ main{
     /* /card Section  */
     /* Azure sect */
     .azure-section{
+        height:540px;
         margin-top: 40px;
         background-color: #f5f7fa;
         /* CARDS */
@@ -142,6 +146,22 @@ main{
                 width:110px;
                 height: 110px; 
             }
+        }
+        .img-button{
+            background-image: url(/dist/img/);
+        }
+        .feature-button{
+            padding-bottom: 20px;
+            position: relative;
+            width:100%;
+            button{
+                position: absolute;
+                left:50%;
+                transform: translate(-50%);
+                background-color: #20AD96;
+            }
+            display: block;
+            
         }
     }
 }    
