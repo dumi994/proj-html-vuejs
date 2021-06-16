@@ -8,13 +8,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-.container {
-  width: 100%;
-  /* background-color:$portGore; */
-  height: 60px;
-  display: flex;
-}
-
 .container-80 {
   padding: 10%;
   width: 80%;
@@ -24,7 +17,7 @@
 
 #app {
   width: 100%;
-  height: 100%;
+  /* height:100%; */
 }
 
 .text-center {
@@ -410,4 +403,33 @@ main .artist-section .artist-blog .artist-card h4 {
 }
 main .artist-section .artist-blog img {
   width: 250px;
+}
+main .help-section {
+  background: linear-gradient(180deg, #FFFFFF 0%, #EEF1F4 100%);
+}
+main .help-section .help-title {
+  padding: 20px 0;
+  text-align: center;
+}
+main .help-section .help-title span {
+  color: #6c6c6c;
+  font-size: 14px;
+}
+main .help-section .help-title h2 {
+  font-size: 30px;
+  color: #293259;
+  padding: 20px, 0;
+}
+main .help-section .help-title h2 span {
+  font-size: 30px;
+  color: #27ab94;
+}
+main .help-section .help-card {
+  padding: 20px;
+  width: 33%;
+}
+
+.footer {
+  width: 100%;
+  /*  background-color: red; */
 }

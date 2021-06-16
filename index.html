@@ -23,24 +23,17 @@
         <header>
             <!-- Navbar -->
             <div class="container">
-                <nav>
+                <nav class="d-flex">
                     <div class="left-nav">
                         <img src="./dist/img/light-logo.png" alt="">
                     </div>
-                    <div class="right-nav">
-                        <ul>
-                            <li><a href="">Home <i class="fas fa-chevron-down"></i></a></li>
-                            <li><a href="">Pages <i class="fas fa-chevron-down"></i></a></li>
-                            <li><a href="">Courses <i class="fas fa-chevron-down"></i></a></li>
-                            <li><a href="">Features <i class="fas fa-chevron-down"></i></a></li>
-                            <li><a href="">Blog <i class="fas fa-chevron-down"></i></a></li>
-                            <li><a href="">Shop <i class="fas fa-chevron-down"></i> <i class="fas fa-shopping-cart"></i></a></li>
-                            <li><a href=""><i class="far fa-user"></i></a></li>
-                            <div class="cerca"> 
-                                <input type="search" placeholder="Cerca qui">
-                                <i class="fas fa-search"></i>
-                            </div>
-                        </ul>
+                    <div class="right-nav" v-for="el in navbar">
+                        
+                        <a href="">{{el.link}} <i class="fas fa-chevron-down"></i></a> 
+                    </div>
+                    <div class="cerca"> 
+                        <input type="search" placeholder="Cerca qui">
+                        <i class="fas fa-search"></i>
                     </div>
                 </nav>
             </div>   
@@ -286,6 +279,7 @@
                     <H2>Latest on <span>OurBlogs</span></H2>
                 </div>
                 <div class="artist-blog d-flex pad-t-0">
+                <!-- artist card -->
                     <div class="artist-card">
                         <img src="/dist/img/artist-blog-03-480x325.jpeg" alt="">
                         <h5>Artist</h5>
@@ -304,13 +298,59 @@
                         <h4>Brush Strokes Energize Trees in Paintings</h4>
                         <p>May 15, 2000. 680 views</p>
                     </div>
+                    <!-- /artist-card -->
+                </div>
+            </section>
+            <!-- HELP SECTION -->
+            <section class="help-section">
+                <div class="container-80 pad-t-0 pad-b-0">
+                    <!-- TITLE HELP SECTION -->
+                    <div class="help-title">
+                        <span>
+                            WANNA TRANSFORM YOUR LIFE?
+                        </span>
+                        <H2>Glad To <span>Help You</span> Learn</H2>
+                    </div>
+                    <!-- /TITLE HELP SECTION -->
+                    <div class="help-cards d-flex">
+                        <div class="help-card">
+                            <i class="far fa-flag"></i>
+                            <h4>Idea discussion</h4>
+                            <p>Get teamed up with the specialists who rowk and teach coding for years at famous universisites</p>
+                        </div>
+                        <div class="help-card">
+                            <i class="fas fa-cog"></i>
+                            <h4>Idea discussion</h4>
+                            <p>Get teamed up with the specialists who rowk and teach coding for years at famous universisites</p>
+                        </div>
+                        <div class="help-card">
+                            <i class="far fa-life-ring"></i>
+                            <h4>Idea discussion</h4>
+                            <p>Get teamed up with the specialists who rowk and teach coding for years at famous universisites</p>
+                        </div>
+                        <div class="help-card">
+                            <i class="fas fa-desktop"></i>
+                            <h4>Idea discussion</h4>
+                            <p>Get teamed up with the specialists who rowk and teach coding for years at famous universisites</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <section class="footer">
+                <div class="container-80 pad-t-0 pad-b-0">
+                    <div class="footer-cards">
+                        <div class="adress"></div>
+                        <div class="explore"></div>
+                        <div class="information"></div>
+                    </div>
                 </div>
             </section>
         </main>
-        <!-- Footer -->
-        <footer>
-
-        </footer>
     </div>
     <!-- VUEJS -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>

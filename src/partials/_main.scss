@@ -271,6 +271,32 @@ main{
             }
         }
     }
-}    
+    .help-section{
+        background: linear-gradient(180deg, #FFFFFF 0%, #EEF1F4 100%);
+        .help-title{
+            padding: 20px 0;
+            text-align: center;
+            span{
+                color:$doveGray;
+
+                font-size: 14px;
+            }
+            h2{
+                font-size:30px;
+                color:$rhino;
+                padding:20px, 0;
+                span{
+                    font-size:30px;
+                    color:$jungleGreen;
+                }
+            }
+        }
+        .help-card{
+            padding:20px;
+            width:33%;
+        }
+    }
+} 
+   
   
     

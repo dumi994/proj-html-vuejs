@@ -7,7 +7,42 @@
   \********************/
 /***/ (() => {
 
+var _ref, _ref2;
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var app = new Vue({
+  el: "#app",
+  data: {
+    el: "",
+    counter: 0,
+    navbar: [{
+      link: "Home"
+    }, {
+      link: "Courses"
+    }, {
+      link: "Features"
+    }, {
+      link: "Blog"
+    }, {
+      link: "Shop"
+    }],
+    adress: [{
+      city: "382 NE 191st # 87394 Miami, FL 33179-3899",
+      phone: "+1(305)547-9909",
+      hours: "(9am - 5pm EST, Monday - Friday",
+      mail: "support@maxcoach.com"
+    }],
+    explore: [(_ref = {
+      link: "Start here"
+    }, _defineProperty(_ref, "link", "Blog"), _defineProperty(_ref, "link", "About us"), _defineProperty(_ref, "link", "Success story"), _defineProperty(_ref, "link", "Courses"), _defineProperty(_ref, "link", "Contact us"), _ref)],
+    information: [(_ref2 = {
+      link: "Memebership"
+    }, _defineProperty(_ref2, "link", "Purchase guide"), _defineProperty(_ref2, "link", "Privacy policy"), _defineProperty(_ref2, "link", "Terms of services"), _ref2)]
+  },
+  methods: {},
+  mounted: function mounted() {}
+});
 
 /***/ }),
 
