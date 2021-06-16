@@ -11,6 +11,7 @@
     display: flex;
 }
 .container-80{
+    padding:10%;
     width:80%;
     margin:auto;
     justify-content: center;
@@ -24,4 +25,10 @@
 }
 .d-flex{
     display: flex;
+}
+.pad-t-0{
+    padding-top: 0;
+}
+.pad-b-0{
+    padding-bottom: 0;
 }
