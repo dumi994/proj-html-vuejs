@@ -7,10 +7,6 @@
   \********************/
 /***/ (() => {
 
-var _ref, _ref2;
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 var app = new Vue({
   el: "#app",
   data: {
@@ -28,17 +24,36 @@ var app = new Vue({
       link: "Shop"
     }],
     adress: [{
-      city: "382 NE 191st # 87394 Miami, FL 33179-3899",
-      phone: "+1(305)547-9909",
-      hours: "(9am - 5pm EST, Monday - Friday",
-      mail: "support@maxcoach.com"
+      link: "382 NE 191st # 87394 Miami, FL 33179-3899"
+    }, {
+      link: "+1(305)547-9909"
+    }, {
+      link: "(9am - 5pm EST, Monday - Friday"
+    }, {
+      link: "support@maxcoach.com"
     }],
-    explore: [(_ref = {
+    explore: [{
       link: "Start here"
-    }, _defineProperty(_ref, "link", "Blog"), _defineProperty(_ref, "link", "About us"), _defineProperty(_ref, "link", "Success story"), _defineProperty(_ref, "link", "Courses"), _defineProperty(_ref, "link", "Contact us"), _ref)],
-    information: [(_ref2 = {
+    }, {
+      link: "Blog"
+    }, {
+      link: "About us"
+    }, {
+      link: "Success story"
+    }, {
+      link: "Courses"
+    }, {
+      link: "Contact us"
+    }],
+    information: [{
       link: "Memebership"
-    }, _defineProperty(_ref2, "link", "Purchase guide"), _defineProperty(_ref2, "link", "Privacy policy"), _defineProperty(_ref2, "link", "Terms of services"), _ref2)]
+    }, {
+      link: "Purchase guide"
+    }, {
+      link: "Privacy policy"
+    }, {
+      link: "Terms of services"
+    }]
   },
   methods: {},
   mounted: function mounted() {}

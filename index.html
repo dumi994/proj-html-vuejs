@@ -27,14 +27,16 @@
                     <div class="left-nav">
                         <img src="./dist/img/light-logo.png" alt="">
                     </div>
-                    <div class="right-nav" v-for="el in navbar">
-                        
-                        <a href="">{{el.link}} <i class="fas fa-chevron-down"></i></a> 
+                    <!-- LINKS -->
+                    <div class="right-nav d-flex" >
+                        <a v-for="el in navbar" href="">{{el.link}} <i class="fas fa-chevron-down"></i></a> 
+                        <div class="cerca"> 
+                            <input type="search" placeholder="Cerca qui">
+                            <i class="fas fa-search"></i>
+                        </div>
                     </div>
-                    <div class="cerca"> 
-                        <input type="search" placeholder="Cerca qui">
-                        <i class="fas fa-search"></i>
-                    </div>
+                    <!-- INPUT CERCA -->
+                    
                 </nav>
             </div>   
             <!-- /Navbar -->
@@ -342,12 +344,29 @@
 
             <!-- Footer -->
             <section class="footer">
-                <div class="container-80 pad-t-0 pad-b-0">
-                    <div class="footer-cards">
-                        <div class="adress"></div>
-                        <div class="explore"></div>
-                        <div class="information"></div>
+                <div class="container-80 pad-t-0 pad-b-0 d-flex">
+                    <div class="footer-cards d-flex">
+                        <div class="footer-card" >
+                            <h2>Adress</h2>
+                            <div>
+                                <p v-for="el in adress"><a href="">{{el.link}}</a></p>
+                            </div>
+                            
+                        </div>
+                       <div class="footer-card ">
+                            <h2>Explore</h2>
+                            <div>
+                                <p v-for="el in explore"><a  href="">{{el.link}}</a></p>
+                            </div>
+                        </div>
+                        <div class="footer-card" >
+                            <h2>Information</h2>
+                            <div>
+                                <p v-for="el in information" ><a href="">{{el.link}}</a> </p>
+                            </div>
+                        </div>
                     </div>
+                    
                 </div>
             </section>
         </main>
