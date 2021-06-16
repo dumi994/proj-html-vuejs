@@ -170,6 +170,7 @@ main {
   /* Central card */
   /* /card Section  */
   /* Azure sect */
+  /* SEZIONE SPONSOR */
 }
 main .main-title {
   padding: 30px;
@@ -193,7 +194,7 @@ main .d-flex .card {
 main .d-flex .card h3 {
   font-weight: 900;
   font-size: 35px;
-  color: #1FAD96;
+  color: #27ab94;
   text-align: center;
 }
 main .d-flex .card span {
@@ -239,7 +240,7 @@ main .right-card {
   height: 400px;
 }
 main .right-card button {
-  background-color: #1FAD96;
+  background-color: #27ab94;
 }
 main .right-card span {
   padding: 10px;
@@ -252,21 +253,22 @@ main .right-card h2 {
   font-weight: 700;
 }
 main .right-card h2 span {
-  color: #1FAD96;
+  color: #27ab94;
 }
 main .right-card ul li {
   list-style: none;
   padding: 10px 0;
 }
 main .right-card ul li i {
-  color: #1FAD96;
+  color: #27ab94;
 }
 main .azure-section {
-  height: 540px;
+  height: 600px;
   margin-top: 40px;
   background-color: #f5f7fa;
   /* CARDS */
   /* IMG DELLE CARD */
+  /* BOTTONE SEZIONE FEATURE */
 }
 main .azure-section .feature-card {
   margin: 20px;
@@ -276,7 +278,7 @@ main .azure-section .feature-card .feature-text {
   padding: 16px;
 }
 main .azure-section .feature-card .feature-text h4 {
-  color: #1FAD96;
+  color: #27ab94;
 }
 main .azure-section .feature-card .feature-text p {
   margin-top: 10px;
@@ -303,11 +305,53 @@ main .azure-section .feature-button {
   padding-bottom: 20px;
   position: relative;
   width: 100%;
-  display: block;
 }
 main .azure-section .feature-button button {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
   background-color: #20AD96;
+}
+main .sponsor-section {
+  padding-bottom: 50px;
+  position: relative;
+}
+main .sponsor-section h2 {
+  font-size: 35px;
+  text-align: center;
+  padding: 40px;
+}
+main .sponsor-section h2 span {
+  color: #27ab94;
+}
+main .sponsor-section .sponsor-img:nth-child(1) {
+  z-index: 1;
+}
+main .sponsor-section .sponsor-img img:nth-child(2) {
+  position: absolute;
+  width: 100px;
+  right: 61%;
+  top: 63%;
+  z-index: 12;
+}
+main .sponsor-section .sponsor-img img {
+  width: 150px;
+  border-radius: 50%;
+  /*  */
+}
+main .sponsor-section .sponsor-text {
+  width: 50%;
+  padding-left: 70px;
+}
+main .sponsor-section .sponsor-text p {
+  font-size: 22px;
+  padding-top: 10px;
+  color: #293259;
+}
+main .sponsor-section .sponsor-text p:nth-child(2) {
+  font-size: 14px;
+}
+main .sponsor-section .sponsor-text p:nth-child(3) {
+  font-size: 14px;
+  color: #6c6c6c;
 }

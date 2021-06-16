@@ -32,7 +32,7 @@ main{
             h3{
                 font-weight: 900;
                 font-size: 35px;
-                color:$mountainMeadow;
+                color:$jungleGreen;
                 text-align: center;
             }
             span{
@@ -83,7 +83,7 @@ main{
         width:50%;
         height: 400px;
         button{
-            background-color: $mountainMeadow;
+            background-color: $jungleGreen;
         }
         span{
             padding:10px;
@@ -91,7 +91,7 @@ main{
         }
         h2{
             span{
-                color:$mountainMeadow
+                color:$jungleGreen
             }
             font-size: 50px;
             margin:20px 0;
@@ -103,7 +103,7 @@ main{
         
         ul li {
             i{
-                color: $mountainMeadow;
+                color: $jungleGreen;
             }
            list-style: none;
            padding: 10px 0;
@@ -112,7 +112,7 @@ main{
     /* /card Section  */
     /* Azure sect */
     .azure-section{
-        height:540px;
+        height:600px;
         margin-top: 40px;
         background-color: #f5f7fa;
         /* CARDS */
@@ -121,7 +121,7 @@ main{
             padding-top: 20px;
             .feature-text{
                 h4{
-                    color:$mountainMeadow
+                    color:$jungleGreen
                 }
                 padding:16px;
                 p{
@@ -150,6 +150,7 @@ main{
         .img-button{
             background-image: url(/dist/img/);
         }
+        /* BOTTONE SEZIONE FEATURE */
         .feature-button{
             padding-bottom: 20px;
             position: relative;
@@ -160,8 +161,53 @@ main{
                 transform: translate(-50%);
                 background-color: #20AD96;
             }
-            display: block;
+        }
+    }
+    /* SEZIONE SPONSOR */
+    .sponsor-section{
+        padding-bottom: 50px;
+        position: relative;
+        h2{
+            font-size: 35px;
+            span{
+                color: $jungleGreen ;
+            }
+            text-align: center;
+            padding:40px;
+        }
+        .sponsor-img:nth-child(1){
+            z-index:1 ;
+        }
+        .sponsor-img img:nth-child(2){
+            position: absolute;
+            width:100px;
+            right:61%;
+            top: 63%;
+            z-index: 12;
+        }
+        .sponsor-img img{
+            width:150px;
+            border-radius: 50%;
+            /*  */
             
+        }
+        .sponsor-text{
+            width:50%;
+            padding-left:70px;
+           
+            p{
+                font-size: 22px;
+                padding-top: 10px;
+                color:$rhino;
+
+            }
+            p:nth-child(2){
+                font-size: 14px;
+            }
+            p:nth-child(3){
+                font-size: 14px;
+                color:$doveGray
+            }
         }
     }
 }    
