@@ -168,6 +168,7 @@ main {
   margin: auto;
   /* MAIN CARD SECTION  */
   /* Central card */
+  /* RIGHT CARD */
   /* /card Section  */
   /* Azure sect */
   /* SEZIONE SPONSOR */
@@ -263,12 +264,29 @@ main .right-card ul li i {
   color: #27ab94;
 }
 main .azure-section {
-  height: 600px;
+  height: 700px;
   margin-top: 40px;
   background-color: #f5f7fa;
   /* CARDS */
   /* IMG DELLE CARD */
   /* BOTTONE SEZIONE FEATURE */
+}
+main .azure-section .feature-title {
+  padding: 35px;
+  text-align: center;
+}
+main .azure-section .feature-title span {
+  color: #6c6c6c;
+  font-size: 14px;
+}
+main .azure-section .feature-title h2 {
+  margin-top: 10px;
+  font-size: 40px;
+  color: #293259;
+}
+main .azure-section .feature-title h2 span {
+  color: #27ab94;
+  font-size: 40px;
 }
 main .azure-section .feature-card {
   margin: 20px;

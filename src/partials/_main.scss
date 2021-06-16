@@ -76,6 +76,7 @@ main{
                 width:175px;
             }
     }
+    /* RIGHT CARD */
     .right-card{
         margin-top:100px;
         margin-left: 100px;
@@ -112,9 +113,27 @@ main{
     /* /card Section  */
     /* Azure sect */
     .azure-section{
-        height:600px;
+        height:700px;
         margin-top: 40px;
         background-color: #f5f7fa;
+        .feature-title{
+            padding: 35px;
+            text-align: center;
+           
+            span{
+                color:$doveGray;
+                font-size: 14px;
+            }
+            h2{
+                margin-top: 10px;
+                font-size: 40px;
+                color:$rhino;
+                span{
+                    color:$jungleGreen;
+                    font-size: 40px;
+                }
+            }
+        }
         /* CARDS */
         .feature-card{
             margin:20px; 
