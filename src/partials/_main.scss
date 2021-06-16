@@ -182,7 +182,7 @@ main{
             position: absolute;
             width:100px;
             right:61%;
-            top: 63%;
+            top: 43%;
             z-index: 12;
         }
         .sponsor-img img{
@@ -208,6 +208,17 @@ main{
                 font-size: 14px;
                 color:$doveGray
             }
+        }
+        .sponsors{
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            .sponsor-logo{
+                img{
+                    padding:20px;
+                }
+            }
+            
         }
     }
 }    

@@ -331,7 +331,7 @@ main .sponsor-section .sponsor-img img:nth-child(2) {
   position: absolute;
   width: 100px;
   right: 61%;
-  top: 63%;
+  top: 43%;
   z-index: 12;
 }
 main .sponsor-section .sponsor-img img {
@@ -354,4 +354,12 @@ main .sponsor-section .sponsor-text p:nth-child(2) {
 main .sponsor-section .sponsor-text p:nth-child(3) {
   font-size: 14px;
   color: #6c6c6c;
+}
+main .sponsor-section .sponsors {
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+main .sponsor-section .sponsors .sponsor-logo img {
+  padding: 20px;
 }
