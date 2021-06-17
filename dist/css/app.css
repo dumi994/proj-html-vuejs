@@ -401,6 +401,7 @@ main .artist-section .artist-blog img {
   width: 250px;
 }
 main .help-section {
+  height: 785px;
   background: linear-gradient(180deg, #FFFFFF 0%, #EEF1F4 100%);
 }
 main .help-section .help-title {
@@ -423,6 +424,24 @@ main .help-section .help-title h2 span {
 main .help-section .help-card {
   padding: 20px;
   width: 33%;
+}
+main .help-section .help-card h4 {
+  margin: 15px 0;
+}
+main .help-section .help-card i {
+  font-size: 40px;
+}
+main .help-section .help-card span {
+  color: #9b999b;
+}
+main .help-section .help-card p {
+  color: #6c6c6c;
+}
+main .help-section .help-card a {
+  color: #293259;
+}
+main .help-section .help-jumbo {
+  margin-top: 100px;
 }
 main .footer-cards .footer-card {
   padding: 20px;

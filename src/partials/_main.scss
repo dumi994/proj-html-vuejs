@@ -272,6 +272,7 @@ main{
         }
     }
     .help-section{
+        height: 785px;
         background: linear-gradient(180deg, #FFFFFF 0%, #EEF1F4 100%);
         .help-title{
             padding: 20px 0;
@@ -294,6 +295,25 @@ main{
         .help-card{
             padding:20px;
             width:33%;
+            h4{
+                margin:15px 0;
+            }
+            i{
+                font-size: 40px;
+                
+            }
+            span{
+                color:$shadyLady;
+            }
+            p{
+                color:$doveGray;
+            }
+            a{
+                color:$rhino;
+            }
+        }
+        .help-jumbo{
+            margin-top:100px;
         }
     }
     .footer-cards{
