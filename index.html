@@ -33,9 +33,9 @@
                         <!-- <a v-for="el in navbar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">{{el.link}} <i class="fas fa-chevron-down"></i></a>  -->
                         <div class="dropdown">
                             <a v-for="el in navbar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">{{el.link}} <i class="fas fa-chevron-down"></i></a> 
-                            <div class="dropdown-content" v-for="el in navbar">
-                                <p>Hello World!</p>
-                                <p>Hello 2</p>
+                            <div class="dropdown-content" >
+                                <p v-for="el in navbar">{{el.link}}</a></p>
+
                             </div>
                         </div>
                         <div class="cerca"> 
@@ -406,7 +406,7 @@
                             <div class="footer-card ">
                                 <h2>Explore</h2>
                                 <div>
-                                    <p v-for="el in explore"><a  href="">{{el.link}}</a></p>
+                                    <p v-for="el in explore">{{el.link}}</a></p>
                                 </div>
                             </div>
                             <div class="footer-card" >
