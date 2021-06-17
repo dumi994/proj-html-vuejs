@@ -1,5 +1,6 @@
 main{
-    background-image: url(./dist/img/background-pattern-grid-line.png);
+    background-image: url("../../dist/img/background-pattern-grid-line.png");
+    /* background-color: red; */
     background-position: center;
     background-repeat:repeat ;
     z-index: 2;
@@ -196,9 +197,9 @@ main{
                 height: 110px; 
             }
         }
-        .img-button{
-            background-image: url(/dist/img/);
-        }
+       /*  .img-button{
+            background-image: url("../../dist/img/");
+        } */
         /* BOTTONE SEZIONE FEATURE */
         .feature-button{
             padding-bottom: 20px;
