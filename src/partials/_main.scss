@@ -316,16 +316,50 @@ main{
             margin-top:100px;
         }
     }
-    .footer-cards{
-        .footer-card{
-            padding:20px;
-            font-size: 14px;
-            border:1px solid black;
-            p{
-                margin:5px;
+    .footer-title{
+        margin-top: 90px;
+        h5{
+            font-size: 22px;
+            color:$rhino;
+            span{
+                color:$jungleGreen;
+            }
+        }
+        h3{
+            margin: 15px;
+            font-weight: 800;
+            font-size: 32px;
+        }
+        button{
+            background-color: #20AD96;
+        }
+    }
+    .footer{
+        background-color: #f8f8f8;
+        .footer-cards{
+            justify-content: space-between;
+            .footer-left, .footer-right{
+                width:50%;
+                
+            }
+            .footer-card{
+                /* width:50%; */
+                flex-wrap: wrap;
+                a{
+                    color:$rhino;
+                    text-decoration: none;
+                    margin: 25px 0;
+                }
+                padding:20px;
+                font-size: 14px;
+               
+                p{
+                    margin:5px;
+                }
             }
         }
     }
+    
 } 
    
   

@@ -360,30 +360,38 @@
 
                 </div>
             </section>
-
+            <section class="footer-title text-center">
+                <h5>Start today for getting <span>Online certification</span></h5>
+                <h3>You can be your own guiding star with our help!</h3>
+                <button>Get started now</button>
+            </section>
             <!-- Footer -->
             <section class="footer">
-                <div class="container-80 pad-t-0 pad-b-0 d-flex">
+                <div class="container-80 pad-t-0 pad-b-0">
                     <div class="footer-cards d-flex">
-                        <div class="footer-card" >
+                        <div class="footer-left">
+                            <div class="footer-card" >
                             <h2>Adress</h2>
                             <div>
                                 <p v-for="el in adress"><a href="">{{el.link}}</a></p>
-                            </div>
-                            
+                            </div>  
                         </div>
-                       <div class="footer-card ">
-                            <h2>Explore</h2>
-                            <div>
-                                <p v-for="el in explore"><a  href="">{{el.link}}</a></p>
+                        </div>
+                        <div class="footer-right d-flex">
+                            <div class="footer-card ">
+                                <h2>Explore</h2>
+                                <div>
+                                    <p v-for="el in explore"><a  href="">{{el.link}}</a></p>
+                                </div>
+                            </div>
+                            <div class="footer-card" >
+                                <h2>Information</h2>
+                                <div>
+                                    <p v-for="el in information" ><a href="">{{el.link}}</a> </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="footer-card" >
-                            <h2>Information</h2>
-                            <div>
-                                <p v-for="el in information" ><a href="">{{el.link}}</a> </p>
-                            </div>
-                        </div>
+                       
                     </div>
                     
                 </div>
