@@ -215,6 +215,7 @@ main {
   /* /card Section  */
   /* Azure sect */
   /* SEZIONE SPONSOR */
+  /* SEZIONE HELP */
 }
 main .main-title {
   padding: 30px;
@@ -488,7 +489,7 @@ main .artist-section .artist-blog img {
   width: 250px;
 }
 main .help-section {
-  height: 785px;
+  height: 385px;
   background: linear-gradient(180deg, #FFFFFF 0%, #EEF1F4 100%);
 }
 main .help-section .help-title {

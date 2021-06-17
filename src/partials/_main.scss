@@ -1,5 +1,5 @@
 main{
-    background-image: url("/dist/img/background-pattern-grid-line.png");
+    background-image: url(./dist/img/background-pattern-grid-line.png);
     background-position: center;
     background-repeat:repeat ;
     z-index: 2;
@@ -305,6 +305,7 @@ main{
             }
         }
     }
+    /* SEZIONE HELP */
     .help-section{
         height: 785px;
         background: linear-gradient(180deg, #FFFFFF 0%, #EEF1F4 100%);
