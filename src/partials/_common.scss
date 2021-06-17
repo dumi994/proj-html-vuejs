@@ -32,3 +32,53 @@ button{
     padding: 10px;
     border-radius: 7px;
 }
+button:hover{
+    background-color: red;
+    color:white;
+    
+}
+.cerchio-verde{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    border:5px solid green;
+}
+.cerchio-verde-pieno{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    border:10px solid green;
+}
+.cerchio-blu{
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    border:3px solid blue;
+}
+.cerchio-aran{
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    border:5px solid orange;
+}
+.cerchio-aran-pieno{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border:5px solid orange;
+}
+.cerchio-viola{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    border:5px solid purple;
+}
+.cerchio-viola-pieno{
+    width:16px;
+    height: 16px;
+    border-radius: 50%;
+    border:8px solid purple;
+}
+
+
+

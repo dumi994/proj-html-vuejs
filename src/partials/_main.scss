@@ -11,6 +11,36 @@ main{
     margin:auto;
     
     .main-title{
+        .cerchio-blu{
+            position:relative;
+            left:-110px;
+            bottom:190px;
+        }
+        .cerchio-aran{
+            position:relative;
+            left:-135px;
+            bottom:55px;
+        }
+        .cerchio-aran-pieno{
+            position:relative;
+            left:195px;
+            
+        }
+        .cerchio-verde-pieno{
+            position:relative;
+            left:500px;
+            bottom:30px;
+        }
+        .cerchio-viola{
+            position:relative;
+            left:120px;
+            top:225px;
+        }
+        .cerchio-viola-pieno{
+            position:relative;
+            left:625px;
+            top:-10px;
+        }
         padding:30px;
         text-align: center;
         width:33%;
@@ -318,6 +348,41 @@ main{
     }
     .footer-title{
         margin-top: 90px;
+        .cerchio-verde{
+            position: absolute;
+            left:550px;
+        }
+        .cerchio-blu{
+            position:relative;
+            left:-110px;
+            bottom:120px;
+        }
+        .cerchio-aran{
+            position:relative;
+            left:1425px;
+            bottom: 150px;
+        }
+        .cerchio-aran-pieno{
+            position:relative;
+            left:295px;
+            bottom:295px;
+            
+        }
+        .cerchio-verde-pieno{
+            position:relative;
+            left:1190px;
+            bottom:30px;
+        }
+        .cerchio-viola{
+            position:relative;
+            right:120px;
+            top:225px;
+        }
+        .cerchio-viola-pieno{
+            position:relative;
+            left:625px;
+            top:-10px;
+        }
         h5{
             font-size: 22px;
             color:$rhino;
@@ -335,7 +400,11 @@ main{
         }
     }
     .footer{
+        
+       /*  position: relative; */
         background-color: #f8f8f8;
+        
+
         .footer-cards{
             justify-content: space-between;
             .footer-left, .footer-right{
@@ -357,6 +426,18 @@ main{
                     margin:5px;
                 }
             }
+        }
+        .freccia-su{
+            width:50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: $jungleGreen;
+            position: relative;
+            bottom:40px;
+            left: 95%;
+            text-align: center;
+            line-height: 50px;
+            color:white;
         }
     }
     

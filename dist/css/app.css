@@ -42,6 +42,60 @@ button {
   border-radius: 7px;
 }
 
+button:hover {
+  background-color: red;
+  color: white;
+}
+
+.cerchio-verde {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 5px solid green;
+}
+
+.cerchio-verde-pieno {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 10px solid green;
+}
+
+.cerchio-blu {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 3px solid blue;
+}
+
+.cerchio-aran {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 5px solid orange;
+}
+
+.cerchio-aran-pieno {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 5px solid orange;
+}
+
+.cerchio-viola {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 5px solid purple;
+}
+
+.cerchio-viola-pieno {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 8px solid purple;
+}
+
 header {
   width: 100%;
   height: 630px;
@@ -168,6 +222,35 @@ main .main-title {
   width: 33%;
   background-position: center;
   margin: auto;
+}
+main .main-title .cerchio-blu {
+  position: relative;
+  left: -110px;
+  bottom: 190px;
+}
+main .main-title .cerchio-aran {
+  position: relative;
+  left: -135px;
+  bottom: 55px;
+}
+main .main-title .cerchio-aran-pieno {
+  position: relative;
+  left: 195px;
+}
+main .main-title .cerchio-verde-pieno {
+  position: relative;
+  left: 500px;
+  bottom: 30px;
+}
+main .main-title .cerchio-viola {
+  position: relative;
+  left: 120px;
+  top: 225px;
+}
+main .main-title .cerchio-viola-pieno {
+  position: relative;
+  left: 625px;
+  top: -10px;
 }
 main .main-title h2 {
   text-align: center;
@@ -446,6 +529,40 @@ main .help-section .help-jumbo {
 main .footer-title {
   margin-top: 90px;
 }
+main .footer-title .cerchio-verde {
+  position: absolute;
+  left: 550px;
+}
+main .footer-title .cerchio-blu {
+  position: relative;
+  left: -110px;
+  bottom: 120px;
+}
+main .footer-title .cerchio-aran {
+  position: relative;
+  left: 1425px;
+  bottom: 150px;
+}
+main .footer-title .cerchio-aran-pieno {
+  position: relative;
+  left: 295px;
+  bottom: 295px;
+}
+main .footer-title .cerchio-verde-pieno {
+  position: relative;
+  left: 1190px;
+  bottom: 30px;
+}
+main .footer-title .cerchio-viola {
+  position: relative;
+  right: 120px;
+  top: 225px;
+}
+main .footer-title .cerchio-viola-pieno {
+  position: relative;
+  left: 625px;
+  top: -10px;
+}
 main .footer-title h5 {
   font-size: 22px;
   color: #293259;
@@ -462,6 +579,7 @@ main .footer-title button {
   background-color: #20AD96;
 }
 main .footer {
+  /*  position: relative; */
   background-color: #f8f8f8;
 }
 main .footer .footer-cards {
@@ -483,6 +601,18 @@ main .footer .footer-cards .footer-card a {
 }
 main .footer .footer-cards .footer-card p {
   margin: 5px;
+}
+main .footer .freccia-su {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #27ab94;
+  position: relative;
+  bottom: 40px;
+  left: 95%;
+  text-align: center;
+  line-height: 50px;
+  color: white;
 }
 
 .footer {
