@@ -289,13 +289,17 @@ main{
             }
         }
         .artist-blog{
+            justify-content: center;
             .artist-card{
                 margin:10px;
+                padding: 30px;
                 h4{
-                    margin:5px;
+                    margin:10px;
+                }
+                p{
+                    color:$doveGray
                 }
             }
-            justify-content: center;
             img{
                 width:250px;
             }

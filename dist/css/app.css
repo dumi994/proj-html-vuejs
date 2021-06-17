@@ -476,9 +476,13 @@ main .artist-section .artist-blog {
 }
 main .artist-section .artist-blog .artist-card {
   margin: 10px;
+  padding: 30px;
 }
 main .artist-section .artist-blog .artist-card h4 {
-  margin: 5px;
+  margin: 10px;
+}
+main .artist-section .artist-blog .artist-card p {
+  color: #6c6c6c;
 }
 main .artist-section .artist-blog img {
   width: 250px;
