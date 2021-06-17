@@ -73,14 +73,22 @@ nav{
     }
     /* PARTE NAV CON I LINK */
     .right-nav{
-            justify-content: space-between;
-            align-items: center;
-                a{
-                    margin-right: 30px;
-                    text-decoration: none;
-                    color:white;
-                    
+        justify-content: space-between;
+        align-items: center;
+            .dropdown{
+                .dropdown-content{
+                    button{
+                        margin:10px;
+                        width:100%;
+                    }
                 }
+            }
+            a{
+                margin-right: 30px;
+                text-decoration: none;
+                color:white;
+                    
+            }
         /* Searchbar */
         .cerca{
             height: 35px;

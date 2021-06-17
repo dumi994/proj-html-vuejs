@@ -29,14 +29,17 @@
                     </div>
                     <!-- LINKS -->
                     <div class="right-nav d-flex" >
-
-                        <!-- <a v-for="el in navbar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">{{el.link}} <i class="fas fa-chevron-down"></i></a>  -->
-                        <div class="dropdown">
-                            <a v-for="el in navbar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">{{el.link}} <i class="fas fa-chevron-down"></i></a> 
-                            <div class="dropdown-content" >
-                                <p v-for="el in navbar">{{el.link}}</a></p>
-
-                            </div>
+                        <div id="drop-menu">
+                            <ul id="menu">
+                                <li v-for="el in navbar"><a href="#">{{el.link}}</a>
+                                    <ul>
+                                        <li><a href="#">Link</a></li>
+                                        <li><a href="#">Link</a></li>
+                                        <li><a href="#">Link</a></li>
+                                        <li><a href="#">Link</a></li>
+                                    </ul>
+                                </li> 
+                            </ul>
                         </div>
                         <div class="cerca"> 
                             <input type="search" placeholder="Cerca qui">

@@ -97,27 +97,102 @@ button:hover {
   border: 8px solid purple;
 }
 
-.dropdown {
-  display: inline-block;
-  left: 10px;
+/* .dropdown {
+    display: inline-block;
+    left:10px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius:3px;
+    p{
+        padding:10px;
+    }
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } */
+#drop-menu {
+  margin: 0 auto;
+  padding: 0;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px black;
-  padding: 12px 16px;
-  z-index: 1;
-  border-radius: 3px;
-}
-.dropdown-content p {
-  padding: 10px;
+/*menu*/
+ul#menu {
+  padding: 0;
+  list-style: none;
+  font-size: 80%;
 }
 
-.dropdown:hover .dropdown-content {
+ul#menu li {
+  margin: 0;
+  padding: 0;
+  float: left;
   display: block;
+  border-right: 1px solid #222;
+  position: relative;
+}
+
+ul#menu li a {
+  float: left;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+ul#menu li a:hover {
+  /* background: #666; */
+  color: #6c6c6c;
+}
+
+ul#menu ul {
+  margin: 2px 0 0;
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  z-index: 9999;
+  background: #1F1F52;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px 5px grey;
+}
+
+ul#menu li:hover ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+ul#menu ul li {
+  float: none;
+  display: block;
+  border: 0;
+}
+
+ul#menu ul a {
+  padding: 10px;
+  width: 130px;
+  display: block;
+  white-space: nowrap;
+  float: none;
+  text-transform: none;
+}
+
+ul#menu ul a:hover {
+  border-radius: 5px;
+  background-color: #0186ba;
+  color: black;
 }
 
 header {
@@ -196,6 +271,10 @@ nav .right-nav {
   justify-content: space-between;
   align-items: center;
   /* Searchbar */
+}
+nav .right-nav .dropdown .dropdown-content button {
+  margin: 10px;
+  width: 100%;
 }
 nav .right-nav a {
   margin-right: 30px;
@@ -637,7 +716,7 @@ main .footer .freccia-su {
   height: 50px;
   border-radius: 50%;
   background-color: #27ab94;
-  position: relative;
+  position: fixed;
   bottom: 40px;
   left: 95%;
   text-align: center;
