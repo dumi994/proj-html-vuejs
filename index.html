@@ -29,7 +29,15 @@
                     </div>
                     <!-- LINKS -->
                     <div class="right-nav d-flex" >
-                        <a v-for="el in navbar" href="">{{el.link}} <i class="fas fa-chevron-down"></i></a> 
+
+                        <!-- <a v-for="el in navbar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">{{el.link}} <i class="fas fa-chevron-down"></i></a>  -->
+                        <div class="dropdown">
+                            <a v-for="el in navbar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">{{el.link}} <i class="fas fa-chevron-down"></i></a> 
+                            <div class="dropdown-content" v-for="el in navbar">
+                                <p>Hello World!</p>
+                                <p>Hello 2</p>
+                            </div>
+                        </div>
                         <div class="cerca"> 
                             <input type="search" placeholder="Cerca qui">
                             <i class="fas fa-search"></i>
@@ -54,7 +62,7 @@
                     <div class="central-img">
                         <img class="img-centr" src="./dist/img/home-6-hero-poster-final.jpg" alt="">
                         <div class="yt-logo">
-                            <img  src="./dist/img/icon-youtube-play.png" alt="">
+                            <a href=""><img  src="./dist/img/icon-youtube-play.png" alt=""></a>
                         </div>
                         
                     </div>
